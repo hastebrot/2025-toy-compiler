@@ -1,5 +1,12 @@
 # 2025-toy-compiler
 
+**setup:**
+
+- `❯ cd powerfx-js/`
+- `❯ bun init --yes`
+- `❯ bun add -d @lezer/common @lezer/generator @lezer/lr`
+- `❯ bun run index.ts`
+
 **references:**
 
 powerfx and tailwindcss:
