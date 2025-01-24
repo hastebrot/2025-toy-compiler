@@ -1,0 +1,41 @@
+>> Abs(0)
+0
+
+>> Abs(2)
+2
+
+>> Abs(-0)
+0
+
+>> Abs(-2)
+2
+
+>> Abs(2.2)
+2.2
+
+>> Abs(-2.2)
+2.2
+
+>> Abs(1/0)
+Error({Kind:ErrorKind.DivisionByZero})
+
+>> Abs("x")
+Error({Kind:ErrorKind.InvalidArgument})
+
+>> Abs("10")
+10
+
+>> Abs("-10.123")
+10.123
+
+>> Abs(true)
+1
+
+>> Abs(false)
+0
+
+>> Abs("true")
+Error({Kind:ErrorKind.InvalidArgument})
+
+>> Abs("false")
+Error({Kind:ErrorKind.InvalidArgument})
