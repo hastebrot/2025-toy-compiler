@@ -5,8 +5,9 @@ function renderTree(tree: Tree) {
   let items = "";
   let level = 0;
   tree.iterate({
-    enter({ type, from, to }) {
-      items += `${"".padEnd(level)}- ${type.name} (${from} → ${to})\n`;
+    enter(node) {
+      const indent = "".padEnd(level);
+      items += `${indent}- ${node.type.name} (${node.from} → ${node.to})\n`;
       level += 1;
     },
     leave() {
@@ -22,7 +23,7 @@ if (import.meta.main) {
   const parser = buildParserFile(grammar).parser;
   console.log(parser);
 
-  const input = "[1, 2, 3, 4]";
+  const input = "[1, 2, [3]]";
   const tree = Parser.parse(input);
   console.log(renderTree(tree));
 }
