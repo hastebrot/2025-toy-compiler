@@ -15,3 +15,7 @@ powerfx and tailwindcss:
 - https://github.com/tailwindlabs/tailwindcss (5,916 commits on Jan 24, 2025 at `a8c54ac`)
 - https://github.com/unocss/unocss (3,094 commits on Jan 24, 2025 at `5f3877d`)
 - https://github.com/tw-in-js/twind (604 commits on Jan 24, 2023 at `4df9465`)
+
+powerfx guides:
+
+- https://learn.microsoft.com/en-us/power-platform/power-fx/overview

@@ -1,2 +1,2 @@
->> 2 + 3
-[]
+>> [1, 2, [3]]
+JsonText(Array("[",Number,Number,Array("[",Number,"]"),"]"))

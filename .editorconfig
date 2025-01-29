@@ -1,0 +1,28 @@
+root = true
+
+[*]
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+
+[*.{js,ts,jsx,tsx}]
+indent_size = 2
+insert_final_newline = true
+max_line_length = 100
+
+[*.{htm,html,css}]
+indent_size = 2
+insert_final_newline = true
+max_line_length = 100
+
+[*.{json,jsonc}]
+indent_size = 2
+insert_final_newline = true
+max_line_length = 1000
+
+[*.md]
+indent_size = 2
+insert_final_newline = true
+max_line_length = 1000
